@@ -18,3 +18,7 @@ build command: npm install && npm run build
 start command: npx serve -s build
 3. take the generated link and put it in cors in backend to allow cross origin sharing
 4. create web service and done
+#Very important
+1. handle cors origin correctly with suitable syntaxes
+2. link front end to back end using right api link
+3. after deploying frontend, update the backend cors origin with deployed frontend link
